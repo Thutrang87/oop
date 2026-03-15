@@ -54,7 +54,6 @@ def draw_grid(rows, cols):
                     if c < cols:
                         print(' ' * (cell_width * 2), end='')
                 print()
-
 draw_grid(2, 2)
 def draw_grid(rows, cols, cell_w=4, cell_h=4):
     h_line = ('+' + ' -' * cell_w) * cols + '+'
