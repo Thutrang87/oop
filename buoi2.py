@@ -31,7 +31,8 @@ total = 60 * discount + shipping
 print(f"Tổng chi phí: ${total:.2f}")
 #c3
 start = 6*60+52
-total_minutes = 1*(8*60+15) + 3*(7*60+12) + 1*(8*60+15)
+# 1 dặm pace 8:15  → 8 phút 15 giây = 8.25 phút
+total_minutes = 1*8.25 + 3*7.2 + 1*8.25  
 arrival = start + total_minutes
 hours = int(arrival // 60)
 minutes = int(arrival % 60)
