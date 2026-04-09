@@ -137,7 +137,7 @@ if __name__ == "__main__":
     except MaHangTrungLap as e:
         print(f"  Lỗi MaHangTrungLap: {e}")
     try:
-        HangDienMay("DM999", "Quạt lỗi", "ABC", -500, 12, "220V", 50)
+        HangDienMay("DM999", "Quạt lỗi", "ABC", 500, 12, "220V", 50)
     except GiaKhongHopLe as e:
         print(f"  Lỗi MaHangTrungLap: {e}")
         
